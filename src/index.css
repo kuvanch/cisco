@@ -10,7 +10,7 @@ html{
 }
 body{
 
-  background-image: url(http://161.35.117.200:8087/api/send/downloadFile/1/1_jpg.png) !important;
+  background-image: url('./img/bg.png') !important;
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
