@@ -1,0 +1,97 @@
+.active{
+    background: rgb(25, 33, 103);
+}
+nav {
+position:fixed !important;
+display:flex !important;
+justify-content:center;
+align-items:center;
+height:80px;
+font-family:'Poppins', sans-serif;
+top:0;
+width: 100%;
+z-index:10;
+color:#fff !important;
+}
+.pres-box{
+    padding:20px !important;
+    padding-left: 80px !important;
+}
+.close-button-da{
+    float:right !important; 
+    font-size:35px !important;
+    color: #192167 !important;
+}
+.line-ppt{
+    text-align:justify !important;
+}
+.name-line{
+    margin-top: 35px !important;
+    display: block !important;
+}
+
+.navlogos{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    text-decoration:none;
+    font-size:1rem;
+    cursor:pointer;
+}
+.navlogos:hover{
+    text-decoration:none;
+}
+.navlogo{
+
+    height: 85% !important;
+    margin-right: 25px;
+    padding-bottom: 10px;
+}
+.navlink{
+    display:flex;
+    justify-content:space-around !important;
+    align-items:center;
+    color:#fff!important;
+    text-decoration:none;
+    padding:1rem 1rem;
+    height:100%;
+
+}
+@media screen and (max-width:960px){
+    .navlink{
+        text-align:center;
+        padding:2rem;
+        width:100%;
+        display:table;
+    }
+}
+.navlink:hover{
+    text-decoration:none;
+    border-bottom:none;
+    transition:all 0.3s ease;
+  }
+
+@media screen and (max-width:591px){
+   .navlogo{
+       height:65% !important;
+       margin-right: 15px;
+   }
+   .pres-box{
+    padding:20px !important;
+    padding-left: 40px !important;
+}
+.close-button-da{
+    float:right !important; 
+    font-size:25px !important;
+    color: #192167 !important;
+}
+.line-ppt{
+    text-align:justify !important;
+    font-size: 12px !important;
+}
+.name-line{
+    margin-top: 25px !important;
+    display: block !important;
+}
+   
+}

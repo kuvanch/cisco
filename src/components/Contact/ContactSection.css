@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.form-contact{
+    width: 55%;
+    background: rgba(25, 33, 103, 0.8);
+    float: left;
+    height:100vh;
+    
+}
+.successful{
+    margin-left: 15px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width:340px;
+    padding:10px !important;
+    margin:10px !important;
+    box-shadow: 0 0 12px -5px !important;
+    background-color:#fff ;
+    color: #192167!important;
+    font-weight: 600 !important;
+    border-radius:8px !important;
+    z-index:20;
+}
+.contact-map{
+    width: 45%;
+    float: right;
+    height: 100vh;
+}
+.contact-header{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    color:#fff;
+}
+.contact-header-left{
+    padding-top: 25px;
+    width:55%;
+
+}
+.contact-header-right{
+    padding-top: 25px;
+    width:9%;
+}
+
+.contact-p{
+    font-size:16px;
+    font-weight: 600;
+    width: 60%;
+}
+.form-contact h5{
+    color:#fff;
+    padding-left:70px;
+}
+.forma{
+   color:#fff;
+   padding-left: 70px;
+    
+}
+
+.input-label{
+    background: transparent;
+    border: none;
+    border-bottom: 4px solid #fff;
+    width:70%;
+    color: #fff;
+    font-size:18px;
+    font-weight: bold;
+    margin:15px 0;
+    outline:none;
+}
+
+.submit-button{
+    padding: 5px 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border:transparent;
+    box-shadow: 0 0 1px 3px #fff;
+    color:#192167;
+}
+
+@media screen and (min-width:795px) and (max-width:1200px){
+
+    .form-contact{
+        width: 50%;
+        float: left;
+        padding-bottom: 30px; 
+    }
+    .contact-map{
+        width:50%;
+        height: 100vh;
+    }
+    .contact-header{
+        justify-content: center;
+    }
+    .contact-header-left{
+        padding-top: 20px;
+        width:65% !important;
+        margin-right: 15px;
+    
+    }
+    .contact-header-right{
+        padding-top: 20px;
+        width:25%;
+    }
+    .contact-p{
+        font-size:14px;
+    }
+    .input-label{
+        border-bottom:2px solid #fff;
+        font-size: 15px;
+        font-weight:500;
+    }
+    .submit-button{
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+}
+@media screen and  (min-width:660px) and (max-width:794px){
+
+    .form-contact{
+        width: 50%;
+        float: left;
+        padding-bottom: 30px; 
+    }
+    .contact-map{
+        width:50%;
+        height: 100vh !important;
+    }
+    .contact-header{
+        justify-content: center;
+    }
+    .contact-label{
+        font-size:18px !important;
+    }
+    .contact-p{
+        font-size: 14px;
+    }
+    .contact-header-left{
+        padding-top: 15px;
+        width:60% !important;
+        margin-right: 15px;
+    
+    }
+    .contact-header-right{
+        padding-top: 15px;
+        width:20%;
+    }
+    .contact-p{
+        font-size:14px;
+    }
+    .input-label{
+        border-bottom:2px solid #fff;
+        font-size: 15px;
+        font-weight:450;
+        margin: 8px 0;
+    }
+    .submit-button{
+        margin-bottom: 15px;
+        padding: 2px 30px;
+        border-radius: 5px;
+        font-size: 14px;
+    }   
+    .footer-p{
+        font-size: 12px !important;
+    }
+}
+@media screen and (max-width:660px){
+
+    .form-contact{
+        width: 100%;
+        height:100% !important;
+    }
+    .contact-map{
+        width: 100%;
+        height: 60vh;
+    }
+    .contact-p{
+        font-size: 14px !important;
+    }
+    .contact-label{
+        font-size:18px !important;
+    }
+    .contact-header-left{
+        padding-top: 25px;
+        width:80% !important;
+        margin-right: 15px;
+    
+    }
+    .contact-header-right{
+        padding-top: 15px;
+        width:0%;
+    }
+    .input-label{
+        border-bottom:2px solid #fff;
+        font-size: 15px;
+        font-weight:500;
+        margin: 10px 0;
+    }
+    .submit-button{
+        margin-bottom: 15px;
+        padding: 8px 30px;
+        border-radius: 5px;
+        font-size: 16px;
+    }   
+    .footer-p{
+        font-size: 14px !important;
+    }
+}

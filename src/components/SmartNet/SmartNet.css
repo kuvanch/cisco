@@ -1,0 +1,68 @@
+.smartnet{
+    width: 100%;
+    height: 374px;
+    background-image: url(../../img/Rectangle\ 16.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background: rgba(25, 33, 103, 0.8);
+    text-align: center;
+    padding-top: 35px;
+    color:#fff;
+}
+.smartnet-box{
+    width: 100%; 
+}
+.smartnet-p{
+    margin-top:25px;
+}
+.classes-modal{
+    width: 100% !important;
+    background-color: rgba(25, 33, 103, 0.8) !important;
+}
+.smartnet-video-box{
+    overflow: hidden !important;
+    width:60%;
+    height: 680px !important;
+    background:#fff;
+    color: #fff;
+}
+
+.video-btn{
+    padding: 10px 60px;
+    margin-top:30px;
+    border-radius: 7px;
+    box-shadow: 0 0 2px 5px #fff;
+    border:transparent;
+    color:rgb(25, 33, 103)
+}
+@media only screen and (min-width:591px) and (max-width:876px){
+
+    .video-btn{
+        padding: 9px 50px;
+        margin-top:20px;
+        border-radius: 7px;
+    }
+}
+@media only screen and (max-width:590px){
+
+    .smartnet{
+        width: 100%;
+        height: 450px;
+        padding:15px;
+    }
+    .video-btn{
+        padding: 8px 40px;
+        margin-top:15px;
+        border-radius: 5px;
+        font-size:14px !important;
+    }
+    .smartnet-box{
+        width: 90%; 
+    }
+    .smartnet-p{
+        font-size: 14px !important;
+        margin-bottom: 30px;
+    }
+}

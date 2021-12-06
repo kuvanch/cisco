@@ -1,0 +1,25 @@
+.video-uploader{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100% !important;
+    padding:10px 100px;
+    margin: 15px 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px -9px;
+}
+@media only screen and (max-width:460px){
+    .upload-container{
+      width: 320px; 
+      margin: 0;
+    }
+    .video-uploader{
+        padding:5px 5px;
+        padding-right: 80px !important;
+
+    }
+    .choose{
+        display: none;
+    }
+}

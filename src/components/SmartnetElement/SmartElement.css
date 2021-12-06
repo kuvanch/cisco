@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.smartelement{
+    background: #fff;
+}
+.product{
+    width: 50%;
+    padding:25px 25px 25px 50px; 
+}
+.element-card{
+    width: 50%;
+    margin-top: 0px !important;
+    display: flex;
+}
+.blue-color{
+    color:#192167 !important;
+}
+.white-color{
+    color:#fff !important;
+}
+.product-apple{
+    background-color: rgb(83, 184, 214);
+}
+.product-tool{
+    background-color: #FFBD07;
+}
+.product-support{
+    background-color: #5E4B85;
+}
+.smartelement hr{
+    width: 70%;
+    height: 5px;
+}
+.element{
+    display: flex;
+}
+.element-card h2{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.tool-icon{
+    width: 25%;
+    object-fit: contain;
+}
+.kas{
+    width:100% !important;
+}
+.dala{
+    padding-top:60px !important;
+}
+.dals{
+    padding-top: 50px !important;
+}
+.element-card-da{
+    display: flex;
+    padding-top: 30px;
+    width:100%;
+}
+.tool-header{
+    width: 100% !important;
+}
+.tool-icon-da{
+    width: 18%;
+    height:90px !important;
+    margin-right: 15px;
+}
+
+@media screen and (min-width:591px) and (max-width:876px){
+    .element-card{
+        width: 100%;
+        margin-top: 0px !important;
+        margin-bottom: 15px;
+        display: block !important;
+    }
+    .product{
+        display: block;
+       width: 100% !important;
+    }
+    .tool-header{
+        font-size: 18px !important;
+    }
+    .element-card h2{
+        font-size: medium;
+        margin-top: 3px;
+        margin-left: 2px;
+    }
+}
+@media screen and (max-width:590px){
+    .smartelement{
+        text-align:center !important;
+    }
+    .element-card{
+        width: 100%;
+        margin-top: 0px !important;
+        margin-bottom: 15px;
+        display: block !important;
+    }
+    .element{
+        display: block !important;
+    }
+    .product{
+       display: block;
+       width: 100% !important;
+       padding:30px 30px 30px 30px;
+    }
+    .tool-header{
+        font-size: 16px !important;
+    }
+    .element-card h2{
+        font-size: medium;
+        margin-top: 3px;
+        margin-left: 2px;
+    }
+    .tool-icon{
+        width: 20%;
+        object-fit: contain;
+    }
+    .element-card-da{
+        display: block !important;
+    }
+    .tool-icon-da{
+        width: 18%;
+        height:70px !important;
+        margin-right: 15px;
+    }
+}
